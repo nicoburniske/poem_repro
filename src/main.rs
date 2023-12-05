@@ -48,7 +48,7 @@ async fn main() -> Result<(), std::io::Error> {
                         .and_then(|b| String::from_utf8(b).ok());
 
                     format!(
-                        "Expected Connect Http Error: Status {:?}, Body {:?}",
+                        "Connect Http Error: Status {:?}, Body {:?}",
                         response.status(),
                         body
                     )
