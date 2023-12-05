@@ -554,6 +554,8 @@ dependencies = [
  "futures-util",
  "poem",
  "tokio",
+ "tokio-tungstenite",
+ "url",
 ]
 
 [[package]]
